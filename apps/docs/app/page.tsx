@@ -33,9 +33,9 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>apps/docs/app/page.tsx</code>
+            Get started by meow editing <code>apps/docs/app/page.tsx</code>
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Save and see your changes meow instantly.</li>
         </ol>
 
         <div className={styles.ctas}>
@@ -60,7 +60,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.secondary}
           >
-            Read our docs
+            Read our docs meow
           </a>
         </div>
         <Button appName="docs" className={styles.secondary}>
