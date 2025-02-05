@@ -1,0 +1,105 @@
+/* General Button Styles */
+.raive-btn {
+    position: relative;
+    overflow: hidden;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Primary Button */
+  .raive-btn--primary {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 242, 254, 0.3);
+  }
+  
+  .raive-btn--primary:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+  }
+  
+  /* Secondary Button */
+  .raive-btn--secondary {
+    background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(255, 65, 108, 0.3);
+  }
+  
+  .raive-btn--secondary:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+  }
+  
+  /* Outline Button */
+  .raive-btn--outline {
+    background: transparent;
+    border: 2px solid #4facfe;
+    color: #4facfe;
+  }
+  
+  .raive-btn--outline:hover {
+    background: #4facfe;
+    color: white;
+  }
+  
+  /* Glassmorphism Button */
+  .raive-btn--glass {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+  }
+  
+  .raive-btn--glass:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Button Sizes */
+  .raive-btn--small {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+  }
+  
+  .raive-btn--medium {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+  
+  .raive-btn--large {
+    padding: 16px 32px;
+    font-size: 1.25rem;
+  }
+  
+  /* Full Width */
+  .raive-btn--full-width {
+    width: 100%;
+  }
+  
+  /* Ripple Effect */
+  .ripple {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple-animation 0.6s linear;
+  }
+  
+  @keyframes ripple-animation {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+  
