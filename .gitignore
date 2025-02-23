@@ -1,5 +1,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencies
+packages/@raive-ui/core/node_modules
+packages/core/node_modules
+apps/next/node_modules
+apps/react/node_modules
 
+# Next.js
+apps/next/.next
+
+# Existing patterns
+node_modules
+.next
+dist
+build
 # Dependencies
 node_modules
 .pnp
